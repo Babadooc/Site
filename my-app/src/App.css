@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  display: grid;
+  grid-template-columns: 20% auto;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  'header header'
+  'sidebar hero'
+  'foot foot'
+  ;
+}

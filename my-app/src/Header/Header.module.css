@@ -1,0 +1,24 @@
+.Header {
+  display: flex;
+  grid-area: header;
+  background: rgb(14, 66, 161) url(./image/header_bg.jpg) no-repeat center/cover;
+}
+.logo{
+  background: url(./image/logo.png) no-repeat center/cover;
+  margin: 1%;
+  width: 100px;
+  height: 100px;
+}
+.title{
+ margin: 0 auto;
+ text-align: center;
+}
+.title h1{
+  color: #fd4f00;
+  font-style: italic;
+  font-size: 60px;
+}
+.title h3{
+  color: #b350239f;
+  font-size: 30px;
+}
