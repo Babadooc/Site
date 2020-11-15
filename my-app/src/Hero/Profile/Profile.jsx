@@ -5,6 +5,7 @@ import Wall from './Wall/Wall';
 
 const Profile = () => {
 
+
   return (
     <div className={style.main}>
       <div className={style.My_profile}>
@@ -20,9 +21,8 @@ const Profile = () => {
           <button className={style.addMyPost}>отправить пост</button>
         </div>
       </div>
-      <Wall wall=' Привет я ТАРАКАН СОРОКОНОГИЙ'></Wall>
-      <Wall wall=' Привет я таракан'></Wall>
-      <Wall wall=' Привет я таракан'></Wall>
+      <Wall wall= 'Привет мир'></Wall>
+
     </div>
   );
 }

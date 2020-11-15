@@ -8,7 +8,7 @@ const Wall = (props) => {
         <div className={style.img_wall}>
 
         </div>
-        <h2 className={style.title_wall}>{props.wall}</h2>
+  <h2 className={style.title_wall}>{props.wall} <span>{props.like}</span></h2>
       </div>
     </div>
   );

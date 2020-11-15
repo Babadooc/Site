@@ -3,14 +3,14 @@
 .main {
   margin: 0;
   padding: 0;
-  background-color:rgb(238, 255, 0);
+  background-color:rgb(42, 44, 7);
 }
 .img{
   background: url(./image/ava.jpg) no-repeat center/cover;
   margin: 1%;
   width: 100px;
   height: 100px;
-  border: 3px solid rgb(0, 77, 128);
+  border: 5px solid rgb(255, 97, 6);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
