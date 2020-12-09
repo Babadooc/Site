@@ -3,7 +3,7 @@ import style from './Profile.module.css';
 import Wall from './Wall/Wall';
 
 
-const Profile = () => {
+const Profile = (props) => {
 
 
   return (
@@ -21,7 +21,7 @@ const Profile = () => {
           <button className={style.addMyPost}>отправить пост</button>
         </div>
       </div>
-      <Wall wall= 'Привет мир!!!!!'></Wall>
+      <Wall wall= 'Привет мир!'></Wall>
 
     </div>
   );

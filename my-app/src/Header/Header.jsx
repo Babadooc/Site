@@ -7,7 +7,7 @@ const Header=()=> {
       </div>
       <div className={style.title}>
         <h1>Социальная сеть</h1>
-        <h3>(как-то назовем)</h3>
+        <h3>(как назовем то?)</h3>
       </div>
     </div>
   );
